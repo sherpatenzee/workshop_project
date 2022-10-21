@@ -33,10 +33,7 @@ function oncalcBtnClicked()
   
   let interest =number1 * rate * number2 ;
 
-   let compound = (number1 + (number1 * rate) ) * number2
-
-  // let futureBalance = compound +  interest;
-  
+  let compound = number1 * Math.pow((1 + rate / 365),365 * number2);
   
   
 
