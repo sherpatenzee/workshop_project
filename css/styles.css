@@ -13,3 +13,10 @@
 .navbar .nav-link {
   color: #fff !important;
 }
+
+.container {
+  border-color: rgb(213, 4, 4);
+  border-style:dashed;
+  padding: 15px;
+  width: 250px;
+}
