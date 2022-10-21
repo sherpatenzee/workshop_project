@@ -19,4 +19,14 @@
   border-style:dashed;
   padding: 15px;
   width: 250px;
+  background-color:whitesmoke;
+  
+}
+
+.bgimg{
+  background-image: url(../images/bg.jpg);
+  background-size: contain;
+  opacity: 90%;
+  
+
 }
