@@ -1,6 +1,6 @@
 .img{
-  height: 1000px;
   width: 3000px;
+  height: 100vh;
 }
 
 /* Height for devices larger than 576px */
@@ -17,13 +17,16 @@
 .container {
   border-color: rgb(213, 4, 4);
   border-style:dashed;
-  padding: 15px;
+  padding: 30px;
   width: 250px;
   background-color:whitesmoke;
+  border-radius: 50px ;
+ 
   
 }
 
 .bgimg{
+  height: 100vh;
   background-image: url(../images/bg.jpg);
   background-size: contain;
   opacity: 90%;
