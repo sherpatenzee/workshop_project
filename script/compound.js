@@ -29,19 +29,23 @@ function oncalcBtnClicked()
   return; 
   }
 
+  //A = P(1 + \frac{r}{n})^{nt}
+
   let rate = number3 / 100;
   
-  let interest =number1 * rate * number2 ;
+  
 
   let compound = number1 * Math.pow((1 + rate / 365),365 * number2);
+
+  let interest = compound - number1 ;
   
   
 
   const answer = document.getElementById("futureBalance");
   const answer2 = document.getElementById("interestEarned")
 
-  answer.value = compound;
-  answer2.value = interest;
+  answer.value = compound.toFixed(2);
+  answer2.value = interest.toFixed(2);
   messagePara.innerHTML = "";
 }
 
