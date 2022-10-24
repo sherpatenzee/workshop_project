@@ -21,8 +21,7 @@
   width: 250px;
   background-color:whitesmoke;
   border-radius: 50px ;
- 
-  
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .bgimg{
@@ -31,5 +30,16 @@
   background-size: contain;
   opacity: 90%;
   
+}
 
+#calcBtn{
+  background-color: bisque;
+}
+
+#calc{
+  background-color: bisque;
+}
+ 
+#convertBtn {
+  background-color: bisque;
 }
